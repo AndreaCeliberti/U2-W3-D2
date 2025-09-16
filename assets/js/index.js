@@ -47,7 +47,7 @@ const resetFields = function (...rest) {
 insName.onsubmit = function (e) {
   e.preventDefault();
 
-  const nameInput = document.getElementById("yourName");
+  const nameInput = document.getElementById("formName");
 
   const appointment = new NameEvent(nameInput.value);
 
